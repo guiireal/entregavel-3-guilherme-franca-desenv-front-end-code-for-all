@@ -860,12 +860,403 @@ const Templates = {
         `;
   },
 
-  // Páginas simplificadas para completar o sistema
-  doacoes: () =>
-    `<div class="container py-5"><h1>Doações - Em breve</h1></div>`,
-  transparencia: () =>
-    `<div class="container py-5"><h1>Transparência - Em breve</h1></div>`,
-  blog: () => `<div class="container py-5"><h1>Blog - Em breve</h1></div>`,
+  /**
+   * Página de Doações
+   */
+  doacoes: () => {
+    return `
+            <div class="container py-5">
+                <section id="how-do-contribute">
+                    <h1 class="text-center mb-4">Como Doar</h1>
+                    
+                    <h2 class="text-center mb-4">Nossas Campanhas</h2>
+                    
+                    <!-- Lista de campanhas -->
+                    <section id="campaings">
+                        <div class="row g-4 mb-5">
+                            <div class="col-md-4">
+                                <article class="card h-100 shadow-sm">
+                                    <img src="./assets/images/doacao-1.png" 
+                                         class="card-img-top" 
+                                         alt="Campanha 1"
+                                         loading="lazy">
+                                    <div class="card-body">
+                                        <h3 class="card-title h5">Título da campanha</h3>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                            Doloremque illo eius placeat.
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-md-4">
+                                <article class="card h-100 shadow-sm">
+                                    <img src="./assets/images/doacao-2.png" 
+                                         class="card-img-top" 
+                                         alt="Campanha 2"
+                                         loading="lazy">
+                                    <div class="card-body">
+                                        <h3 class="card-title h5">Título da campanha</h3>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                            Doloremque illo eius placeat.
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-md-4">
+                                <article class="card h-100 shadow-sm">
+                                    <img src="./assets/images/doacao-3.png" 
+                                         class="card-img-top" 
+                                         alt="Campanha 3"
+                                         loading="lazy">
+                                    <div class="card-body">
+                                        <h3 class="card-title h5">Título da campanha</h3>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                            Doloremque illo eius placeat.
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <h2 class="text-center mb-4">Formas de Doar</h2>
+                    
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                            <div class="card shadow-sm">
+                                <div class="card-body p-4">
+                                    <form id="doacaoForm" novalidate>
+                                        <fieldset class="mb-4">
+                                            <legend class="h5 mb-3">Selecione a forma de pagamento</legend>
+                                            
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" 
+                                                       type="radio" 
+                                                       name="type_of_donate" 
+                                                       id="credit-card" 
+                                                       value="credit_card" 
+                                                       checked>
+                                                <label class="form-check-label" for="credit-card">
+                                                    Cartão de Crédito
+                                                </label>
+                                            </div>
+                                            
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" 
+                                                       type="radio" 
+                                                       name="type_of_donate" 
+                                                       id="pix" 
+                                                       value="pix">
+                                                <label class="form-check-label" for="pix">
+                                                    PIX
+                                                </label>
+                                            </div>
+                                            
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" 
+                                                       type="radio" 
+                                                       name="type_of_donate" 
+                                                       id="ticket" 
+                                                       value="ticket">
+                                                <label class="form-check-label" for="ticket">
+                                                    Boleto
+                                                </label>
+                                            </div>
+                                        </fieldset>
+                                        
+                                        <div class="mb-4">
+                                            <label for="amount" class="form-label">Valor da Doação (R$)</label>
+                                            <input type="number" 
+                                                   class="form-control" 
+                                                   id="amount" 
+                                                   name="amount" 
+                                                   min="5" 
+                                                   step="0.01" 
+                                                   required 
+                                                   placeholder="50.00">
+                                            <div class="invalid-feedback">
+                                                Por favor, insira um valor mínimo de R$ 5,00
+                                            </div>
+                                        </div>
+                                        
+                                        <button type="submit" class="btn btn-primary w-100 btn-lg">
+                                            Doar Agora
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        `;
+  },
+
+  /**
+   * Página de Transparência
+   */
+  transparencia: () => {
+    return `
+            <div class="container py-5">
+                <h1 class="text-center mb-5">Transparência</h1>
+
+                <!-- Seção de relatórios financeiros -->
+                <section class="financial-reports mb-5">
+                    <h2 class="mb-3">Relatórios financeiros</h2>
+                    <p class="lead mb-4">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+                        quam in minima, reiciendis ea placeat delectus dolore voluptatem
+                        quisquam nihil.
+                    </p>
+                    
+                    <div class="row g-4 mb-4">
+                        <div class="col-md-4">
+                            <article class="card h-100 shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="card-title h5">Relatório Financeiro 2024</h3>
+                                    <p class="card-text">
+                                        <small class="text-muted">PDF - 2.3 MB - Atualizado em 01/10/2025</small>
+                                    </p>
+                                    <a href="#" download class="btn btn-primary">
+                                        <i class="bi bi-download me-2"></i>Download
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <article class="card h-100 shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="card-title h5">Relatório Financeiro 2023</h3>
+                                    <p class="card-text">
+                                        <small class="text-muted">PDF - 1.8 MB - Atualizado em 15/01/2024</small>
+                                    </p>
+                                    <a href="#" download class="btn btn-primary">
+                                        <i class="bi bi-download me-2"></i>Download
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <article class="card h-100 shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="card-title h5">Relatório Financeiro 2022</h3>
+                                    <p class="card-text">
+                                        <small class="text-muted">PDF - 1.5 MB - Atualizado em 20/01/2023</small>
+                                    </p>
+                                    <a href="#" download class="btn btn-primary">
+                                        <i class="bi bi-download me-2"></i>Download
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Seção de prestação de contas -->
+                <section id="accountability" class="mb-5">
+                    <h2 class="mb-3">Prestação de contas</h2>
+                    <p class="lead mb-4">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+                        quam in minima, reiciendis ea placeat delectus dolore voluptatem
+                        quisquam nihil.
+                    </p>
+                    
+                    <div class="row g-4 mb-4">
+                        <div class="col-md-4">
+                            <article class="card h-100 shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="card-title h5">Prestação de Contas 2024</h3>
+                                    <p class="card-text">
+                                        <small class="text-muted">PDF - 3.1 MB - Atualizado em 05/10/2025</small>
+                                    </p>
+                                    <a href="#" download class="btn btn-primary">
+                                        <i class="bi bi-download me-2"></i>Download
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <article class="card h-100 shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="card-title h5">Prestação de Contas 2023</h3>
+                                    <p class="card-text">
+                                        <small class="text-muted">PDF - 2.9 MB - Atualizado em 20/01/2024</small>
+                                    </p>
+                                    <a href="#" download class="btn btn-primary">
+                                        <i class="bi bi-download me-2"></i>Download
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <article class="card h-100 shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="card-title h5">Prestação de Contas 2022</h3>
+                                    <p class="card-text">
+                                        <small class="text-muted">PDF - 2.5 MB - Atualizado em 25/01/2023</small>
+                                    </p>
+                                    <a href="#" download class="btn btn-primary">
+                                        <i class="bi bi-download me-2"></i>Download
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Seção de documentos públicos -->
+                <section id="public-documents">
+                    <h2 class="mb-3">Documentos públicos</h2>
+                    <p class="lead mb-4">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+                        quam in minima, reiciendis ea placeat delectus dolore voluptatem
+                        quisquam nihil.
+                    </p>
+                    
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <article class="card h-100 shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="card-title h5">Estatuto Social</h3>
+                                    <p class="card-text">
+                                        <small class="text-muted">PDF - 850 KB - Atualizado em 15/03/2024</small>
+                                    </p>
+                                    <a href="#" download class="btn btn-primary">
+                                        <i class="bi bi-download me-2"></i>Download
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <article class="card h-100 shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="card-title h5">Certidão de Utilidade Pública</h3>
+                                    <p class="card-text">
+                                        <small class="text-muted">PDF - 450 KB - Atualizado em 10/05/2023</small>
+                                    </p>
+                                    <a href="#" download class="btn btn-primary">
+                                        <i class="bi bi-download me-2"></i>Download
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        `;
+  },
+
+  /**
+   * Página de Blog
+   */
+  blog: () => {
+    return `
+            <div class="container py-5">
+                <!-- Seção do blog e notícias -->
+                <section id="blog-and-news">
+                    <h1 class="text-center mb-4">Blog e notícias</h1>
+                    <p class="text-center lead mb-5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+                        eligendi!
+                    </p>
+                    
+                    <section id="news">
+                        <div class="row g-4 mb-5">
+                            <div class="col-md-4">
+                                <article class="card h-100 shadow-sm">
+                                    <picture>
+                                        <source srcset="./assets/images/noticia-1.png" 
+                                                media="(min-width: 600px)">
+                                        <img src="./assets/images/noticia-1.png" 
+                                             class="card-img-top" 
+                                             alt="Imagem ilustrativa da notícia sobre tecnologia e educação"
+                                             loading="lazy">
+                                    </picture>
+                                    <div class="card-body">
+                                        <h2 class="card-title h5">Título da notícia 1</h2>
+                                        <p class="card-text">Descrição da notícia 1</p>
+                                    </div>
+                                </article>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <article class="card h-100 shadow-sm">
+                                    <picture>
+                                        <source srcset="./assets/images/noticia-2.png" 
+                                                media="(min-width: 600px)">
+                                        <img src="./assets/images/noticia-2.png" 
+                                             class="card-img-top" 
+                                             alt="Imagem ilustrativa da notícia sobre inclusão digital"
+                                             loading="lazy">
+                                    </picture>
+                                    <div class="card-body">
+                                        <h2 class="card-title h5">Título da notícia 2</h2>
+                                        <p class="card-text">Descrição da notícia 2</p>
+                                    </div>
+                                </article>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <article class="card h-100 shadow-sm">
+                                    <picture>
+                                        <source srcset="./assets/images/noticia-3.png" 
+                                                media="(min-width: 600px)">
+                                        <img src="./assets/images/noticia-3.png" 
+                                             class="card-img-top" 
+                                             alt="Imagem ilustrativa da notícia sobre capacitação profissional"
+                                             loading="lazy">
+                                    </picture>
+                                    <div class="card-body">
+                                        <h2 class="card-title h5">Título da notícia 3</h2>
+                                        <p class="card-text">Descrição da notícia 3</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+
+                <!-- Newsletter -->
+                <section id="newsletter" class="bg-light rounded p-5">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6 text-center">
+                            <h2 class="mb-3">Assine nossa newsletter</h2>
+                            <p class="mb-4">
+                                Receba as últimas notícias e atualizações diretamente no seu e-mail
+                            </p>
+                            
+                            <form id="newsletterForm" novalidate>
+                                <div class="input-group mb-3">
+                                    <input type="email" 
+                                           class="form-control form-control-lg" 
+                                           id="newsletter-email" 
+                                           name="email" 
+                                           required 
+                                           placeholder="Seu e-mail"
+                                           aria-label="E-mail para newsletter">
+                                    <button class="btn btn-primary btn-lg" type="submit">
+                                        Assinar
+                                    </button>
+                                </div>
+                                <div class="invalid-feedback d-block text-start" style="display: none !important;">
+                                    Por favor, insira um e-mail válido
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        `;
+  },
+
   contato: () =>
     `<div class="container py-5"><h1>Contato - Em breve</h1></div>`,
 };
