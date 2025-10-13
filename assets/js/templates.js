@@ -881,10 +881,10 @@ const Templates = {
                                          alt="Campanha 1"
                                          loading="lazy">
                                     <div class="card-body">
-                                        <h3 class="card-title h5">Título da campanha</h3>
+                                        <h3 class="card-title h5">Computadores para Escolas</h3>
                                         <p class="card-text">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                            Doloremque illo eius placeat.
+                                            Ajude-nos a equipar escolas públicas com computadores e acesso à internet. 
+                                            Cada doação transforma o futuro de centenas de estudantes.
                                         </p>
                                     </div>
                                 </article>
@@ -896,10 +896,10 @@ const Templates = {
                                          alt="Campanha 2"
                                          loading="lazy">
                                     <div class="card-body">
-                                        <h3 class="card-title h5">Título da campanha</h3>
+                                        <h3 class="card-title h5">Bolsas de Estudo Tech</h3>
                                         <p class="card-text">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                            Doloremque illo eius placeat.
+                                            Financie cursos de programação e desenvolvimento web para jovens de baixa renda. 
+                                            Sua contribuição abre portas para o mercado de tecnologia.
                                         </p>
                                     </div>
                                 </article>
@@ -911,10 +911,10 @@ const Templates = {
                                          alt="Campanha 3"
                                          loading="lazy">
                                     <div class="card-body">
-                                        <h3 class="card-title h5">Título da campanha</h3>
+                                        <h3 class="card-title h5">Mentoria para Iniciantes</h3>
                                         <p class="card-text">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                            Doloremque illo eius placeat.
+                                            Apoie nosso programa de mentoria que conecta desenvolvedores experientes 
+                                            com iniciantes na área de tecnologia.
                                         </p>
                                     </div>
                                 </article>
@@ -1007,9 +1007,9 @@ const Templates = {
                 <section class="financial-reports mb-5">
                     <h2 class="mb-3">Relatórios financeiros</h2>
                     <p class="lead mb-4">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-                        quam in minima, reiciendis ea placeat delectus dolore voluptatem
-                        quisquam nihil.
+                        Confira nossos relatórios financeiros anuais com informações detalhadas sobre 
+                        receitas, despesas e investimentos em projetos sociais. Prezamos pela total 
+                        transparência na gestão dos recursos recebidos.
                     </p>
                     
                     <div class="row g-4 mb-4">
@@ -1061,9 +1061,9 @@ const Templates = {
                 <section id="accountability" class="mb-5">
                     <h2 class="mb-3">Prestação de contas</h2>
                     <p class="lead mb-4">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-                        quam in minima, reiciendis ea placeat delectus dolore voluptatem
-                        quisquam nihil.
+                        Documentos oficiais de prestação de contas auditados por empresas independentes, 
+                        demonstrando como os recursos são aplicados em nossos programas de inclusão digital 
+                        e capacitação tecnológica.
                     </p>
                     
                     <div class="row g-4 mb-4">
@@ -1115,9 +1115,9 @@ const Templates = {
                 <section id="public-documents">
                     <h2 class="mb-3">Documentos públicos</h2>
                     <p class="lead mb-4">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-                        quam in minima, reiciendis ea placeat delectus dolore voluptatem
-                        quisquam nihil.
+                        Acesse nossos documentos institucionais oficiais, incluindo estatuto social, 
+                        certidões e registros que comprovam a regularidade e legitimidade da nossa organização 
+                        sem fins lucrativos.
                     </p>
                     
                     <div class="row g-4">
@@ -1164,8 +1164,8 @@ const Templates = {
                 <section id="blog-and-news">
                     <h1 class="text-center mb-4">Blog e notícias</h1>
                     <p class="text-center lead mb-5">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
-                        eligendi!
+                        Fique por dentro das últimas novidades, conquistas e histórias inspiradoras 
+                        dos nossos projetos de inclusão digital e capacitação em tecnologia.
                     </p>
                     
                     <section id="news">
@@ -1181,8 +1181,9 @@ const Templates = {
                                              loading="lazy">
                                     </picture>
                                     <div class="card-body">
-                                        <h2 class="card-title h5">Título da notícia 1</h2>
-                                        <p class="card-text">Descrição da notícia 1</p>
+                                        <h2 class="card-title h5">150 Jovens Formados em Programação</h2>
+                                        <p class="card-text">Nossa primeira turma de 2025 concluiu o curso de desenvolvimento web full-stack. 
+                                        Mais de 80% já foram contratados por empresas de tecnologia da região.</p>
                                     </div>
                                 </article>
                             </div>
@@ -1198,8 +1199,9 @@ const Templates = {
                                              loading="lazy">
                                     </picture>
                                     <div class="card-body">
-                                        <h2 class="card-title h5">Título da notícia 2</h2>
-                                        <p class="card-text">Descrição da notícia 2</p>
+                                        <h2 class="card-title h5">Parceria com Escolas Públicas</h2>
+                                        <p class="card-text">Firmamos parceria com 25 escolas públicas para levar laboratórios de informática 
+                                        e cursos de introdução à programação para mais de 3 mil alunos.</p>
                                     </div>
                                 </article>
                             </div>
@@ -1215,8 +1217,9 @@ const Templates = {
                                              loading="lazy">
                                     </picture>
                                     <div class="card-body">
-                                        <h2 class="card-title h5">Título da notícia 3</h2>
-                                        <p class="card-text">Descrição da notícia 3</p>
+                                        <h2 class="card-title h5">Hackathon Solidário 2025</h2>
+                                        <p class="card-text">Evento reúne desenvolvedores voluntários para criar soluções tecnológicas 
+                                        para ONGs locais. Inscrições abertas até o final do mês.</p>
                                     </div>
                                 </article>
                             </div>
@@ -1257,6 +1260,203 @@ const Templates = {
         `;
   },
 
-  contato: () =>
-    `<div class="container py-5"><h1>Contato - Em breve</h1></div>`,
+  /**
+   * Página de Contato
+   */
+  contato: () => {
+    return `
+            <div class="container py-5">
+                <h1 class="display-4 text-center mb-3">Entre em Contato</h1>
+                <p class="lead text-center text-muted mb-5">
+                    Tem alguma dúvida ou sugestão? Estamos aqui para ajudar!
+                </p>
+
+                <div class="row g-5">
+                    <!-- Formulário de Contato -->
+                    <div class="col-lg-7">
+                        <div class="card shadow-sm">
+                            <div class="card-body p-4">
+                                <h2 class="h4 mb-4">Envie sua Mensagem</h2>
+                                <form id="contatoForm" novalidate>
+                                    <div class="mb-3">
+                                        <label for="contato-nome" class="form-label">Nome Completo *</label>
+                                        <input type="text" 
+                                               class="form-control" 
+                                               id="contato-nome" 
+                                               name="nome" 
+                                               required 
+                                               minlength="3"
+                                               placeholder="Seu nome completo">
+                                        <div class="invalid-feedback">
+                                            Por favor, digite seu nome completo.
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="contato-email" class="form-label">E-mail *</label>
+                                        <input type="email" 
+                                               class="form-control" 
+                                               id="contato-email" 
+                                               name="email" 
+                                               required 
+                                               placeholder="seu@email.com">
+                                        <div class="invalid-feedback">
+                                            Por favor, digite um e-mail válido.
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="contato-telefone" class="form-label">Telefone (opcional)</label>
+                                        <input type="tel" 
+                                               class="form-control" 
+                                               id="contato-telefone" 
+                                               name="telefone" 
+                                               placeholder="(00) 00000-0000">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="contato-assunto" class="form-label">Assunto *</label>
+                                        <select class="form-select" 
+                                                id="contato-assunto" 
+                                                name="assunto" 
+                                                required>
+                                            <option value="">Selecione um assunto</option>
+                                            <option value="voluntariado">Voluntariado</option>
+                                            <option value="doacoes">Doações</option>
+                                            <option value="parcerias">Parcerias</option>
+                                            <option value="informacoes">Informações Gerais</option>
+                                            <option value="outros">Outros</option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                            Por favor, selecione um assunto.
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="contato-mensagem" class="form-label">Mensagem *</label>
+                                        <textarea class="form-control" 
+                                                  id="contato-mensagem" 
+                                                  name="mensagem" 
+                                                  rows="5" 
+                                                  required 
+                                                  minlength="10"
+                                                  placeholder="Digite sua mensagem aqui..."></textarea>
+                                        <div class="invalid-feedback">
+                                            Por favor, digite uma mensagem com pelo menos 10 caracteres.
+                                        </div>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary w-100">
+                                        <i class="bi bi-send me-2"></i>Enviar Mensagem
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Informações de Contato -->
+                    <div class="col-lg-5">
+                        <div class="card shadow-sm bg-light h-100">
+                            <div class="card-body p-4">
+                                <h2 class="h4 mb-4">Informações de Contato</h2>
+                                
+                                <div class="mb-4">
+                                    <div class="d-flex align-items-start mb-3">
+                                        <i class="bi bi-geo-alt-fill text-primary fs-4 me-3"></i>
+                                        <div>
+                                            <h5 class="mb-1">Endereço</h5>
+                                            <p class="text-muted mb-0">
+                                                Rua da Tecnologia, 123<br>
+                                                Centro - São Paulo, SP<br>
+                                                CEP: 01000-000
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex align-items-start mb-3">
+                                        <i class="bi bi-telephone-fill text-primary fs-4 me-3"></i>
+                                        <div>
+                                            <h5 class="mb-1">Telefone</h5>
+                                            <p class="text-muted mb-0">
+                                                (11) 3456-7890<br>
+                                                (11) 98765-4321
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex align-items-start mb-3">
+                                        <i class="bi bi-envelope-fill text-primary fs-4 me-3"></i>
+                                        <div>
+                                            <h5 class="mb-1">E-mail</h5>
+                                            <p class="text-muted mb-0">
+                                                contato@codeforall.org<br>
+                                                voluntarios@codeforall.org
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex align-items-start">
+                                        <i class="bi bi-clock-fill text-primary fs-4 me-3"></i>
+                                        <div>
+                                            <h5 class="mb-1">Horário de Atendimento</h5>
+                                            <p class="text-muted mb-0">
+                                                Segunda a Sexta: 9h às 18h<br>
+                                                Sábado: 9h às 13h
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <hr class="my-4">
+
+                                <h5 class="mb-3">Redes Sociais</h5>
+                                <div class="d-flex gap-3">
+                                    <a href="https://twitter.com/codeforall" 
+                                       class="btn btn-outline-primary rounded-circle" 
+                                       target="_blank"
+                                       aria-label="Twitter/X">
+                                        <i class="bi bi-twitter-x"></i>
+                                    </a>
+                                    <a href="https://facebook.com/codeforall" 
+                                       class="btn btn-outline-primary rounded-circle" 
+                                       target="_blank"
+                                       aria-label="Facebook">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                    <a href="https://instagram.com/codeforall" 
+                                       class="btn btn-outline-primary rounded-circle" 
+                                       target="_blank"
+                                       aria-label="Instagram">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                    <a href="https://linkedin.com/company/codeforall" 
+                                       class="btn btn-outline-primary rounded-circle" 
+                                       target="_blank"
+                                       aria-label="LinkedIn">
+                                        <i class="bi bi-linkedin"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mapa (Placeholder) -->
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <div class="card shadow-sm">
+                            <div class="card-body p-0">
+                                <div class="ratio ratio-21x9 bg-light d-flex align-items-center justify-content-center">
+                                    <div class="text-center text-muted">
+                                        <i class="bi bi-map fs-1 d-block mb-2"></i>
+                                        <p class="mb-0">Mapa de Localização</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+  },
 };
